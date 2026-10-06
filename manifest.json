@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "HomeShare",
+  "version": "4.0.0",
+  "description": "Shared apartment expense manager with mobile PWA support.",
+  "permissions": [
+    "storage",
+    "alarms"
+  ],
+  "action": {
+    "default_title": "HomeShare",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {}
+}
